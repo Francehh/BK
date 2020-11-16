@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C705045-B175-4459-817A-1AED0470C63D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BurgerKingPOS</RootNamespace>
+    <AssemblyName>BurgerKingPOS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37f11675-d3db-47dc-bb37-e39fbb070d38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42d230c9-113e-40c6-b68f-7d2f48a4b2d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42f7a1dd-c0a7-49b4-9ce3-716d865acbaf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73adf9cb-6df6-4a7d-bcd6-44214b68ef24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80e61146-bab9-4cf2-8ac5-7715737ac1e6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\369feab8-6e70-45af-837d-e88d23870a97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\704ef098-4a26-482d-9c6a-a78fd0b1667d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3377fabb-363c-4b2b-a770-f49892781796.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b54698e6-6454-4a61-b628-dc940e8ffc6b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd19e6d9d64d7bf4494f6f2929b19ba5_hamburger-bk-chicken-fries-burger-king-fast-food-restaurant-_820-500.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dribbbble-02_2x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fc68df07-4cb8-4f55-969c-bd61ef4c2dbe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-brand-font-burger-king-logo-png-clip-art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd19e6d9d64d7bf4494f6f2929b19ba5_hamburger-bk-chicken-fries-burger-king-fast-food-restaurant-_820-5001.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb_1112_0_0_0_0_auto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen+Shot+2015-07-15+at+9.29.44+AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bk-02.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

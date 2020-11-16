@@ -1,0 +1,10 @@
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\bin\Debug\BurgerKingPOS.exe.config
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\bin\Debug\BurgerKingPOS.exe
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\bin\Debug\BurgerKingPOS.pdb
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\obj\Debug\BurgerKingPOS.csprojAssemblyReference.cache
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\obj\Debug\BurgerKingPOS.Form1.resources
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\obj\Debug\BurgerKingPOS.Properties.Resources.resources
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\obj\Debug\BurgerKingPOS.csproj.GenerateResource.cache
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\obj\Debug\BurgerKingPOS.exe
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\obj\Debug\BurgerKingPOS.pdb
+C:\Users\SHAO ESTEBAN\source\repos\BurgerKingPOS\BurgerKingPOS\obj\Debug\BurgerKingPOS.csproj.CoreCompileInputs.cache
